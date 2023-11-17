@@ -49,8 +49,8 @@ public:
         return resource.get();
     }
 
-    // Getter dla zarządzanego zasobu
-    Resource& getResource() {
+    // Getter dla zarządzanego zasobu (dodano const)
+    const Resource& getResource() const {
         return resource;
     }
 
